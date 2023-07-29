@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./assets/images/logo.png" width="100" alt="Logo"/><br/>
+  <img src="https://github.com/airscripts/analscript/raw/main/assets/images/logo.png" width="100" alt="Logo"/><br/>
   Analscript
 </h1>
 
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/gifs/usage.gif" alt="Usage GIF" />
+  <img src="https://github.com/airscripts/analscript/raw/main/assets/gifs/usage.gif" alt="Usage GIF" />
 </p>
 
 ## Contents
