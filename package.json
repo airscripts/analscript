@@ -5,6 +5,11 @@
   "author": "Airscript",
   "main": "analscript.js",
   "description": "A modern approach for writing anally fast stuff.",
+  "keywords": ["analscript", "programming language", "esoteric", "cli", "anal"],
+  "homepage": "https://github.com/airscripts/analscript",
+  "bugs": {
+    "email": "support@airscript.it"
+  },
   "scripts": {
     "test:std": "vitest",
     "test:ui": "vitest --ui",
@@ -17,6 +22,20 @@
     "type": "git",
     "url": "https://github.com/airscripts/analscript.git"
   },
+  "funding": [
+    {
+      "type" : "github",
+      "url" : "https://github.com/sponsors/airscripts"
+    },
+    {
+      "type" : "ko-fi",
+      "url" : "https://ko-fi.com/airscript"
+    },
+    {
+      "type": "linktree",
+      "url": "https://linktr.ee/airscript"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@vitest/coverage-v8": "^0.33.0",
