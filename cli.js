@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import help from './lib/help.js';
 import { anallify, stringify } from './lib/stdlib.js';
 import { HELP, STRINGIFY, ANALLIFY } from './lib/constants.js';
