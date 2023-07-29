@@ -1,5 +1,14 @@
-# Analscript
-Analscript is an esoteric programming language, that takes inspiration from the fallen Anal Lang and serves, the purpose to be a modern approach for writing anally fast stuff.
+<h3 align="center">
+  <img src="./assets/images/logo.png" width="100" alt="Logo"/><br/>
+</h3>
+
+<h1 align="center">
+  Analscript
+</h1>
+
+<p align="center">
+  Analscript is an esoteric programming language, that takes inspiration from the fallen Anal Lang and serves, the purpose to be a modern approach for writing anally fast stuff.
+</p>
 
 ## Contents
 - [Installation](#installation)
@@ -25,7 +34,7 @@ analscript help
 
 This command will show you something like this:
 ```
-Analscript Version 1.1.1
+Analscript Version 1.1.2
 Copyright (c) 2023 by Airscript
  
 Usage:
