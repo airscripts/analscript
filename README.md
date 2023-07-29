@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  Analscript is a joke esoteric programming language, that takes inspiration from the fallen <a href=https://esolangs.org/wiki/AnalLang>AnalLang</a> and serves, the purpose to be a modern approach for writing anally fast stuff.
+  Analscript is a joke esoteric programming language, that takes inspiration from the fallen <a href="https://esolangs.org/wiki/AnalLang">AnalLang</a> and serves, the purpose to be a modern approach for writing anally fast stuff.
 </p>
 
 <p align="center">
@@ -60,7 +60,8 @@ As you can see, you can as of this latest version, have access to a variety of c
 Use them to write or read your anally marvelous softwares!
 
 ## Resources
-- [Esolang Wiki Page](https://esolangs.org/wiki/Analscript): the official esolang wiki page.
+- [Esolang Wiki Page](https://esolangs.org/wiki/Analscript): the official Esolang Wiki page.
+- [GitHub Page](https://ghio.airscript.it/analscript): the GitHub page for this repository.
 
 ## Contributing
 Contributions and suggestions about how to improve this project are welcome!  
