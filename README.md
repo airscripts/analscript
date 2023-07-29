@@ -14,6 +14,7 @@
 ## Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Resources](#resources)
 - [Contributing](#contributing)
 - [Support](#support)
 - [License](#license)
@@ -57,6 +58,9 @@ Arguments:
 
 As you can see, you can as of this latest version, have access to a variety of commands.  
 Use them to write or read your anally marvelous softwares!
+
+## Resources
+- [Esolang Wiki Page](https://esolangs.org/wiki/Analscript): the official esolang wiki page.
 
 ## Contributing
 Contributions and suggestions about how to improve this project are welcome!  
