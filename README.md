@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  Analscript is a joke esoteric programming language, that takes inspiration from the fallen [AnalLang](https://esolangs.org/wiki/AnalLang) and serves, the purpose to be a modern approach for writing anally fast stuff.
+  Analscript is a joke esoteric programming language, that takes inspiration from the fallen <a href=https://esolangs.org/wiki/AnalLang>AnalLang</a> and serves, the purpose to be a modern approach for writing anally fast stuff.
 </p>
 
 <p align="center">
