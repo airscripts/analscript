@@ -24,10 +24,10 @@ function cli() {
   switch (command) {
     case COMPILE: compile(args); break;
     case RUN: output = run(args); break;
-    case HELP: process.stdout.write(help); break;
+    case HELP: process.stdout.write(help); return;
     case ANALLIFY: output = anallify(args); break;
     case STRINGIFY: output = stringify(args); break;
-    default: process.stdout.write(help); break;
+    default: process.stdout.write(help); return;
   }
 
   process.stdout.write(`${output}\n`);
