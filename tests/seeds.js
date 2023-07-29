@@ -5,3 +5,7 @@ export const STRINGIFY_INPUT = '🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆
 export const ANALLIFY_INPUT = 'A';
 export const ANALLIFY_WRONG_OUTPUT = '🍑🍆';
 export const ANALLIFY_CORRECT_OUTPUT = '🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆🍑🍆';
+
+export const ANAL_FILE_LOCATION = 'tests/script.anal';
+export const RUN_CORRECT_OUTPUT = 'Welcome to Analscript!';
+export const RUN_WRONG_OUTPUT = 'Welcome to Jurassic Park!';
