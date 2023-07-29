@@ -1,13 +1,14 @@
-<h3 align="center">
-  <img src="./assets/images/logo.png" width="100" alt="Logo"/><br/>
-</h3>
-
 <h1 align="center">
+  <img src="./assets/images/logo.png" width="100" alt="Logo"/><br/>
   Analscript
 </h1>
 
 <p align="center">
   Analscript is an esoteric programming language, that takes inspiration from the fallen Anal Lang and serves, the purpose to be a modern approach for writing anally fast stuff.
+</p>
+
+<p align="center">
+  <img src="./assets/gifs/usage.gif" alt="Usage GIF" />
 </p>
 
 ## Contents
@@ -34,7 +35,7 @@ analscript help
 
 This command will show you something like this:
 ```
-Analscript Version 1.1.3
+Analscript Version 1.1.4
 Copyright (c) 2023 by Airscript
  
 Usage:
