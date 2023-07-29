@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/airscripts/analscript/raw/main/assets/images/logo.png" width="100" alt="Logo"/><br/>
+  <img src="https://i.postimg.cc/HsH7QsCQ/logo.png" width="100" alt="Logo"/><br/>
   Analscript
 </h1>
 
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/airscripts/analscript/raw/main/assets/gifs/usage.gif" alt="Usage GIF" />
+  <img src="https://i.postimg.cc/1RMyj9q0/usage.gif" alt="Usage GIF" />
 </p>
 
 ## Contents
@@ -35,7 +35,7 @@ analscript help
 
 This command will show you something like this:
 ```
-Analscript Version 1.1.5
+Analscript Version 1.1.6
 Copyright (c) 2023 by Airscript
  
 Usage:

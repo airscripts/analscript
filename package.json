@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "name": "analscript",
   "main": "analscript.js",
   "description": "A modern approach for writing anally fast stuff.",
