@@ -42,6 +42,8 @@ Usage:
   analscript command [options] [arguments]
  
 Commands:
+  run                     Run a .anal file
+  compile                 Compile any file to .anal
   anallify                Encode string to anal
   stringify               Decode anal to string
   help                    Show this help
@@ -53,7 +55,7 @@ Arguments:
   Nothing to see here
 ```
 
-As you can see, you can as of this latest version, have access to two more commands beside help: *anallify* and *stringify*.  
+As you can see, you can as of this latest version, have access to a variety of commands.  
 Use them to write or read your anally marvelous softwares!
 
 ## Contributing
