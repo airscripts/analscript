@@ -34,4 +34,4 @@ function cli() {
   process.stdout.write(`${output}\n`);
 }
 
-graceful(cli());
+graceful(cli);
