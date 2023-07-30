@@ -7,7 +7,7 @@ workflows:
   testing:
     jobs:
       - node/test:
-          version: lts
+          version: '18.17'
           pkg-manager: npm
           run-command: test:std
           resource_class: small
