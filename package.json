@@ -6,7 +6,7 @@
   "main": "analscript.js",
   "description": "A modern approach for writing anally fast stuff.",
   "keywords": ["analscript", "programming language", "esoteric", "cli", "anal"],
-  "homepage": "https://github.com/airscripts/analscript",
+  "homepage": "https://esolangs.org/wiki/Analscript",
   "bugs": {
     "email": "support@airscript.it"
   },
