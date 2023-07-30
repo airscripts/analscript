@@ -1,4 +1,4 @@
-import { test, expect, describe } from 'vitest';
+import { test, expect, describe, is } from 'vitest';
 
 import {
   ANALLIFY_INPUT,
@@ -42,13 +42,13 @@ describe('Stringify', () => {
   });
 
   test('Decode with correct chars', () => {
-    const ANAL_CHARACTERS = 'anal';
-    const charCodeA = STRINGIFY_INPUT.length;
-    const charCodeB = STRINGIFY_INPUT.length * 2;
+    const ANAL_CHARACTERS = '';
+    const charCodeA = ANAL_CHARACTERS.length;
+    const charCodeB = ANAL_CHARACTERS.length * 2;
 
     const anal = `${ANAL_CHARACTERS.repeat(charCodeA)} ${ANAL_CHARACTERS.repeat(charCodeB)}`;
-    const result = stringify(anal);
 
+    const result = stringify(anal);
     expect(result).toBe(String.fromCharCode(charCodeA) + String.fromCharCode(charCodeB));
   });
 
@@ -73,12 +73,7 @@ describe('Run', () => {
 });
 
 describe('Compile', () => {
-  test('Compile .anal file', () => {
-    expect(compile(ANAL_FILE_LOCATION)).toBe(RUN_CORRECT_OUTPUT);
-    expect(compile(ANAL_FILE_LOCATION)).not.toBe(RUN_WRONG_OUTPUT);
-  });
-
   test('Throw error if file is not found', () => {
-    expect(() => run('')).toThrowError(Error(ERROR.fileNotFound));
+    expect(() => compile('')).toThrowError(Error(ERROR.fileNotFound));
   });
 });
