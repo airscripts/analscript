@@ -36,7 +36,7 @@ analscript help
 
 This command will show you something like this:
 ```
-Analscript Version 1.1.6
+Analscript Version 1.1.7
 Copyright (c) 2023 by Airscript
  
 Usage:
