@@ -33,4 +33,9 @@ function cli() {
   process.stdout.write(`${output}\n`);
 }
 
-cli();
+try {
+  cli();
+} catch (error) {
+  process.stderr.write(`${error.message}\n`);
+  process.exit(1);
+}
