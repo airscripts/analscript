@@ -1,16 +1,13 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@4.9.0
+  node: circleci/node@5.1.0
 
 workflows:
   testing:
     jobs:
       - node/test:
-          executor:
-            resource_class: small
-
-          parameters:
-            version: lts
-            pkg-manager: npm
-            run-command: test:std
+          version: lts
+          pkg-manager: npm
+          run-command: test:std
+          resource_class: small
