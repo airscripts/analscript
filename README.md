@@ -62,6 +62,7 @@ Use them to write or read your anally marvelous softwares!
 ## Resources
 - [Esolang Wiki Page](https://esolangs.org/wiki/Analscript): the official Esolang Wiki page.
 - [GitHub Page](https://ghio.airscript.it/analscript): the GitHub page for this repository.
+- [Docker Hub](https://hub.docker.com/r/airscript/analscript): the official image for trying it out with Docker.
 
 ## Contributing
 Contributions and suggestions about how to improve this project are welcome!  
@@ -84,4 +85,4 @@ Choose what you find more suitable for you:
 *As of my personal preference, I'do go with GitHub Sponsors.*
 
 ## License  
-This repository is licensed under [MIT License](https://github.com/Airscripts/emdees/blob/main/LICENSE).
+This repository is licensed under [MIT License](https://github.com/airscripts/analscript/blob/main/LICENSE).
