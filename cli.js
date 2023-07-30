@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 import help from './lib/help.js';
+import { graceful } from './lib/utils.js';
 
 import {
   run,
   compile,
   anallify,
   stringify,
-} from './lib/stdlib.js';
+} from './lib/std.js';
 
 import {
   RUN,
@@ -33,4 +34,4 @@ function cli() {
   process.stdout.write(`${output}\n`);
 }
 
-cli();
+graceful(cli);
