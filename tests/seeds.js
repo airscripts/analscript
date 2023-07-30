@@ -1,5 +1,6 @@
 export const NUMERIC_INPUT = 1;
 export const EMPTY_STRING_INPUT = '';
+export const NOT_ACCEPTED_INPUT = '🍑🍆 a';
 
 export const STRINGIFY_CORRECT_OUTPUT = 'B';
 export const STRINGIFY_WRONG_OUTPUT = '🍑🍆🍑🍆';

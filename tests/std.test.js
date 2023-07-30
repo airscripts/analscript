@@ -9,6 +9,7 @@ import {
   RUN_WRONG_OUTPUT,
   ANAL_FILE_LOCATION,
   EMPTY_STRING_INPUT,
+  NOT_ACCEPTED_INPUT,
   RUN_CORRECT_OUTPUT,
   ANALLIFY_WRONG_OUTPUT,
   STRINGIFY_WRONG_OUTPUT,
@@ -58,6 +59,12 @@ describe('Stringify', () => {
   test('Throw error if argument is missing', () => {
     expect(() => stringify(EMPTY_STRING_INPUT)).toThrowError(
       Error(ERROR.missingArgument),
+    );
+  });
+
+  test('Throw error if there are grammar-refused characters', () => {
+    expect(() => stringify(NOT_ACCEPTED_INPUT)).toThrowError(
+      Error(ERROR.notAcceptedByGrammar),
     );
   });
 });
