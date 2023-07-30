@@ -10,4 +10,3 @@ workflows:
           version: lts
           pkg-manager: npm
           run-command: test:std
-      resource_class: small
