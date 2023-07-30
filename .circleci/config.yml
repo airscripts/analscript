@@ -7,6 +7,10 @@ workflows:
   testing:
     jobs:
       - node/test:
-          version: lts
-          pkg-manager: npm
-          run-command: test:std
+          executor:
+            resource_class: small
+
+          parameters:
+            version: lts
+            pkg-manager: npm
+            run-command: test:std
