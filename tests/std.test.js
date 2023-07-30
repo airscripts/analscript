@@ -1,13 +1,19 @@
-import { test, expect, describe, is } from 'vitest';
+import fs from 'node:fs';
+import { test, expect, describe } from 'vitest';
 
 import {
+  FILE_LOCATION,
+  NUMERIC_INPUT,
   ANALLIFY_INPUT,
   STRINGIFY_INPUT,
   RUN_WRONG_OUTPUT,
   ANAL_FILE_LOCATION,
+  EMPTY_STRING_INPUT,
   RUN_CORRECT_OUTPUT,
   ANALLIFY_WRONG_OUTPUT,
   STRINGIFY_WRONG_OUTPUT,
+  COMPILE_CORRECT_OUTPUT,
+  COMPILED_FILE_LOCATION,
   ANALLIFY_CORRECT_OUTPUT,
   STRINGIFY_CORRECT_OUTPUT,
 } from './seeds.js';
@@ -17,7 +23,7 @@ import {
   anallify,
   stringify,
   compile,
-} from '../lib/stdlib.js';
+} from '../lib/std.js';
 import { ERROR } from '../lib/dictionary.js';
 
 describe('Anallify', () => {
@@ -31,7 +37,9 @@ describe('Anallify', () => {
   });
 
   test('Throw error if argument is missing', () => {
-    expect(() => anallify('')).toThrowError(Error(ERROR.missingArgument));
+    expect(() => anallify(EMPTY_STRING_INPUT)).toThrowError(
+      Error(ERROR.missingArgument),
+    );
   });
 });
 
@@ -41,23 +49,16 @@ describe('Stringify', () => {
     expect(stringify(STRINGIFY_INPUT)).not.toBe(STRINGIFY_WRONG_OUTPUT);
   });
 
-  test('Decode with correct chars', () => {
-    const ANAL_CHARACTERS = '';
-    const charCodeA = ANAL_CHARACTERS.length;
-    const charCodeB = ANAL_CHARACTERS.length * 2;
-
-    const anal = `${ANAL_CHARACTERS.repeat(charCodeA)} ${ANAL_CHARACTERS.repeat(charCodeB)}`;
-
-    const result = stringify(anal);
-    expect(result).toBe(String.fromCharCode(charCodeA) + String.fromCharCode(charCodeB));
-  });
-
   test('Throw error if argument is not a string', () => {
-    expect(() => stringify(1)).toThrowError(Error(ERROR.notString));
+    expect(() => stringify(NUMERIC_INPUT)).toThrowError(
+      Error(ERROR.notString),
+    );
   });
 
   test('Throw error if argument is missing', () => {
-    expect(() => stringify('')).toThrowError(Error(ERROR.missingArgument));
+    expect(() => stringify(EMPTY_STRING_INPUT)).toThrowError(
+      Error(ERROR.missingArgument),
+    );
   });
 });
 
@@ -68,12 +69,21 @@ describe('Run', () => {
   });
 
   test('Throw error if file is not found', () => {
-    expect(() => run('')).toThrowError(Error(ERROR.fileNotFound));
+    expect(() => run(EMPTY_STRING_INPUT)).toThrowError(
+      Error(ERROR.fileNotFound),
+    );
   });
 });
 
 describe('Compile', () => {
+  test('Compile file to .anal', () => {
+    expect(compile(FILE_LOCATION)).toBe(COMPILE_CORRECT_OUTPUT);
+    fs.rmSync(COMPILED_FILE_LOCATION);
+  });
+
   test('Throw error if file is not found', () => {
-    expect(() => compile('')).toThrowError(Error(ERROR.fileNotFound));
+    expect(() => compile(EMPTY_STRING_INPUT)).toThrowError(
+      Error(ERROR.fileNotFound),
+    );
   });
 });

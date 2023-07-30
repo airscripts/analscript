@@ -1,4 +1,4 @@
-import { anallify, stringify } from './lib/stdlib.js';
+import { anallify, stringify } from './lib/std.js';
 
 export { anallify, stringify };
 export default { anallify, stringify };
