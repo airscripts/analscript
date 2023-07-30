@@ -9,5 +9,5 @@ workflows:
       - node/test:
           version: lts
           pkg-manager: npm
-          resource_class: small
           run-command: test:std
+      resource_class: small
