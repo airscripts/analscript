@@ -12,4 +12,4 @@ Latest tag supported only.
 Analscript is a joke esoteric programming language made by Airscript. Its interpreter is written in Node.js, just as the other esoteric programming language from which takes inspiration from called AnalLang.
 
 # Licensing
-This repository is licensed under [MIT License](https://github.com/Airscripts/emdees/blob/main/LICENSE).
+This repository is licensed under [MIT License](https://github.com/airscripts/analscript/blob/main/LICENSE).

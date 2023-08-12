@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://i.postimg.cc/HsH7QsCQ/logo.png" width="100" alt="Logo"/><br/>
+  <img src="https://raw.githubusercontent.com/airscripts/analscript/main/assets/images/logo.png" width="100" alt="Logo"/><br/>
   Analscript
 </h1>
 
@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://i.postimg.cc/1RMyj9q0/usage.gif" alt="Usage GIF" />
+  <img src="https://raw.githubusercontent.com/airscripts/analscript/main/assets/gifs/usage.gif" alt="Usage GIF" />
 </p>
 
 ## Contents
@@ -70,20 +70,15 @@ Contributions and suggestions about how to improve this project are welcome!
 Just follow our [contributing guidelines](https://github.com/airscripts/analscript/blob/main/CONTRIBUTING.md).
 
 ## Support
-If you want to support my work you can do it following me, leaving a star, sharing my projects or also with the links below.  
+If you want to support my work you can do it by following me, leaving a star, sharing my projects or also donating at the links below.  
 Choose what you find more suitable for you:  
 
 <a href="https://sponsor.airscript.it" target="blank">
-  <img src="./assets/images/github-sponsors.svg" alt="GitHub Sponsors" width="30px" />
+  <img src="https://raw.githubusercontent.com/airscripts/assets/main/images/github-sponsors.svg" alt="GitHub Sponsors" width="30px" />
 </a>&nbsp;
 <a href="https://kofi.airscript.it" target="blank">
-  <img src="./assets/images/kofi.svg" alt="Kofi" width="30px" />
-</a>&nbsp;
-<a href="https://linktree.airscript.it" target="blank">
-  <img src="./assets/images/linktree.svg" alt="Linktree" width="30px" />
+  <img src="https://raw.githubusercontent.com/airscripts/assets/main/images/kofi.svg" alt="Kofi" width="30px" />
 </a>
-
-*As of my personal preference, I'do go with GitHub Sponsors.*
 
 ## License  
 This repository is licensed under [MIT License](https://github.com/airscripts/analscript/blob/main/LICENSE).
