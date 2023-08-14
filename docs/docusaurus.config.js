@@ -28,6 +28,7 @@ const config = {
         blog: false,
 
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/airscripts/analscript',
         },
@@ -42,14 +43,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
-
       navbar: {
         title: 'Analscript',
 
         logo: {
           alt: 'Analscript Logo',
-          src: 'img/logo.svg',
+          src: 'https://raw.githubusercontent.com/airscripts/analscript/main/assets/images/logo.png',
         },
 
         items: [
@@ -79,11 +78,16 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/airscripts/analscript',
               },
+
+              {
+                label: 'Airscript',
+                href: 'https://github.com/airscripts',
+              },
             ],
           },
         ],
 
-        copyright: `Copyright © ${new Date().getFullYear()} | Airscript`,
+        copyright: `Copyright © ${new Date().getFullYear()} Airscript. Built with Docusaurus.`,
       },
 
       prism: {
