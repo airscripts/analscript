@@ -43,6 +43,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'https://raw.githubusercontent.com/airscripts/analscript/main/assets/images/cover.png',
+
       navbar: {
         title: 'Analscript',
 
