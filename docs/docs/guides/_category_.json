@@ -1,0 +1,9 @@
+{
+  "position": 3,
+  "label": "Guides",
+
+  "link": {
+    "type": "generated-index",
+    "description": "Collection of various guides useful for your Analscript journey."
+  }
+}

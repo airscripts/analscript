@@ -1,0 +1,9 @@
+{
+  "position": 2,
+  "label": "Getting Started",
+
+  "link": {
+    "type": "generated-index",
+    "description": "Getting started in Analscript by writing and running our first program."
+  }
+}
