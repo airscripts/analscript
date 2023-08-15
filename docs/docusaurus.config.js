@@ -30,7 +30,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/airscripts/analscript/edit/main',
+          editUrl: 'https://github.com/airscripts/analscript/edit/main/docs',
         },
 
         theme: {
