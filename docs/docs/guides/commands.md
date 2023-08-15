@@ -58,3 +58,6 @@ The output would be something like this:
 ```
 Hello World
 ```
+
+## Something Missing?
+If you find issues with the documentation or have suggestions on how to improve the documentation or the project in general, please file an issue for us on `GitHub`.
