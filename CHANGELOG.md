@@ -92,4 +92,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * feat: add stringify to stdlib
 * feat: add cli
 
-**Full Changelog**: https://github.com/Airscripts/emdees/commits/1.0.0
+**Full Changelog**: https://github.com/airscripts/analscript/commits/1.0.0
