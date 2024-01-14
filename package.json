@@ -11,9 +11,8 @@
     "email": "support@airscript.it"
   },
   "scripts": {
-    "test:std": "vitest",
-    "test:ui": "vitest --ui",
-    "test:coverage": "vitest --coverage"
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
   },
   "bin": {
     "analscript": "cli.js"
