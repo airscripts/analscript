@@ -8,6 +8,7 @@ const config = {
   title: 'Analscript',
   tagline: 'A modern approach to make anally fast stuff.',
   favicon: 'img/favicon.ico',
+  url: 'https://analscript.airscript.it',
   baseUrl: '/',
   organizationName: 'airscripts',
   projectName: 'analscript',
